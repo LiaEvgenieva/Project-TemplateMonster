@@ -13,6 +13,12 @@ body {
     border-bottom: solid 1px #333333;
 }
 
+.header span {
+    color: #ffffff;
+    font-size: 28px;
+    font-family: "Poppins-Bold";
+}
+
 .header nav {
 
 }
@@ -21,10 +27,13 @@ nav ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 }
 
 header ul li{
     display: inline;
+    font-size: 16px;
+    font-family: "Poppins-Bold";
 }
 
 nav li a {
@@ -32,11 +41,41 @@ nav li a {
     color: #ffffff;
 }
 
+.header input {
+    height: 36px;
+    width: 120px;
+    border: solid 2px #ffc000;
+    border-radius: 50px;
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Poppins-Regular";
+}
+
+
 #top {
     background-color: #121212;
     margin: 0;
     padding: 0;
     height: 779px;
+}
+
+#top span {
+    font-size: 49px;
+    font-family: "Poppins-Bold";
+    color: #ffffff;
+}
+
+#top .adverting {
+    font-size: 160px;
+    font-family: "Flow";
+    color: #ffc000;
+}
+
+#top p {
+    font-size: 24px;
+    font-family: "Poppins-Light";
+    color: #ffffff;
 }
 
 #about {
@@ -46,11 +85,41 @@ nav li a {
     height: 1010px;
 }
 
+#about span {
+    font-size: 60px;
+    font-family: "Poppins-Bold";
+    letter-spacing: -1.5px;
+    color: #000000;
+}
+
+#about p {
+    font-size: 17px;
+    font-family: "Poppins-Light";
+    letter-spacing: 1px;
+    color: #666666;
+    text-align: center;
+    width: 1030px;
+    line-height: 2;
+}
+
 #blubrs {
     background-color: #000000;
     margin: 0;
     padding: 0;
     height: 510px;
+}
+
+#blubrs span {
+    font-size: 30px;
+    font-family: "Poppins-Bold";
+letter-spacing: -1.5px;
+    color: #ffffff;
+}
+
+#blubrs p {
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    color: #b6b6cd;
 }
 
 #why_us {
@@ -60,11 +129,68 @@ nav li a {
     height: 766px;
 }
 
+#why_us span {
+    font-size: 60px;
+    font-family: "Poppins-Bold";
+    color: #000000;
+}
+
+#why_us p {
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+    color: #666666;
+}
+
+#why_us div span {
+    font-size: 24px;
+    font-family: "Poppins-Bold";
+    letter-spacing: -1.5px;
+    color: #000000;
+}
+
+#why_us div p {
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    color: #aaaaaa;
+}
+
 #team {
     background-color: #ffcf3c;
     margin: 0;
     padding: 0;
     height: 922px;
+}
+
+#team span {
+    font-size: 55px;
+    font-family: "MyriadProRegular";
+    color: #000000;
+    letter-spacing: -3px;
+}
+
+#team p {
+    font-size: 18px;
+    font-family: "MyriadProRegular";
+    color: #110e04;
+}
+
+#team .name {
+    font-size: 24px;
+    font-family: "Poppins-Bold";
+    letter-spacing: -1.5px;
+    color: #000000;
+}
+
+#team .prof {
+    font-size: 12px;
+    font-family: "Poppins-Bold";
+    color: #ffc000;
+}
+
+#team .info {
+    font-size: 14px;
+    font-family: "Poppins-Regular";
+    color: #aaaaaa;
 }
 
 #contact {
@@ -74,9 +200,122 @@ nav li a {
     height: 491px;
 }
 
+#contact span {
+    font-size: 60px;
+    font-family: "Poppins-Bold";
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#contact .color {
+    font-size: 60px;
+    font-family: "Poppins-Bold";
+    font-weight: bold;
+    color: #ffc000;
+}
+
+#contact p {
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+    color: #ffffff;
+}
+
+#contact form {
+    text-align: center;
+}
+
+#contact .email {
+    height:60px;
+    width: 512px;
+    background-color: #ffffff;
+    border: none;
+    color: #aaaaaa;
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+    padding: 0 0 0 40px;
+    border-radius: 50px 0 0 50px;
+}
+
+#contact .submit {
+    height:60px;
+    width: 220px;
+    background-color: #ffc000;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Poppins-Regular";
+    font-weight: bold;
+    margin-left: -4px;
+    border-radius: 0 50px 50px 0;
+}
+
 .footer {
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
     height: 72px;
+}
+
+.footer span {
+    font-size: 14px;
+    font-family: "Poppins-Light";
+    color: #000000;
+}
+
+.footer span b {
+    font-size: 14px;
+    font-family: "Poppins-Light";
+    color: #000000;
+}
+
+@font-face {
+    font-family: "Flow";
+    src: url("../fonts/Flow/Flow.otf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../fonts/Poppins/Poppins-Bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("../fonts/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadProRegular";
+    src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+    src: url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"),
+    url("../fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }
